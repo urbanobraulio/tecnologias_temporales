@@ -9,6 +9,8 @@ Indice de procesos:
 5. Filtros espectrales
 6. Sistemas de reverberación
 
+
+
 1. Time Stretching: Time stretching proceso de manipulación digital del audio que permite modificar su duración o velocidad sin alterar su altura. Se utiliza para expandir o comprimir el tiempo sonoro, y puede aplicarse en contextos de procesamiento en tiempo real o diferido. 
 
 
@@ -41,7 +43,3 @@ nuPG — The New Pulsar Generator, para Supercollider ; https://www.marcinpietru
 
 6. Sistemas de reverberación: Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de una "halo" de ecos densos y cercanos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución, donde el sonido se "cruza" con la firma acústica de una sala real
 
-
-
-
-Sistemas de Reverberación (Reverberation Systems): Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de una "halo" de ecos densos y cercanos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución, donde el sonido se "cruza" con la firma acústica de una sala real
