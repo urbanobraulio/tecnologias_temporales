@@ -21,6 +21,7 @@ EmissionControl 2 - Software standalone ; https://www.curtisroads.net/software
 
 ys.granular - patchs de pure data / pd vanilla ; https://github.com/yannseznec/ys.granular
 
+nuPG — The New Pulsar Generator, para Supercollider ; https://www.marcinpietruszewski.com/research-nupg
 
 
 Samplers (Samplers): Son dispositivos o programas diseñados para grabar y reproducir fragmentos de sonido real ("muestras" o samples). Actúan como precursores de la síntesis moderna y se utilizan en contextos de síntesis granular para segmentar y reorganizar sonidos grabados, permitiendo variaciones extraordinarias de la fuente original.
