@@ -18,13 +18,18 @@ La síntesis granular es una técnica que construye objetos sonoros complejos me
 
 
 EmissionControl 2 - Software standalone ; https://www.curtisroads.net/software
+
 ys.granular - patchs de pure data / pd vanilla ; https://github.com/yannseznec/ys.granular
 
 
-Samplers:
 
-Filtros resonantes:
+Samplers (Samplers): Son dispositivos o programas diseñados para grabar y reproducir fragmentos de sonido real ("muestras" o samples). Actúan como precursores de la síntesis moderna y se utilizan en contextos de síntesis granular para segmentar y reorganizar sonidos grabados, permitiendo variaciones extraordinarias de la fuente original.
 
-Filtros espectrales: 
 
-Sistemas de reverberación:
+Filtros Resonantes (Resonance Filters): Son filtros, generalmente de paso de banda, que se utilizan para enfatizar formantes o regiones específicas de energía en el espectro. Históricamente, se han empleado para dar a pulsaciones eléctricas una "resonancia aguda" que genera tonos musicales o para simular la resonancia física de instrumentos, como la caja de una maraca.
+
+
+Filtros Espectrales (Spectral Filters): Procesos que operan directamente en el dominio de la frecuencia, re-escalando las amplitudes de bins (bandas) o pistas espectrales individuales. Pueden controlarse mediante interfaces gráficas que permiten "pintar" o borrar regiones específicas de un sonograma para esculpir el sonido de manera precisa antes de su resíntesis.
+
+
+Sistemas de Reverberación (Reverberation Systems): Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de una "halo" de ecos densos y cercanos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución, donde el sonido se "cruza" con la firma acústica de una sala real
