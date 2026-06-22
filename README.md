@@ -1,13 +1,12 @@
 # tecnologias_temporales
-Catalogo de herramientas digitales gratuitas, de código abierto o de desarrolladorxs independientes, para manipular sonido orientado a la práctica musical. Parte del proyecto de investigación: "Temporalidades discursivas en la música contemporánea argentina del siglo XXI. Una breve cartografía sonora local." que se inscribe en el programa SEAS (Sistemas y Espacialidad en el Arte Sonoro) - Universidad Nacional de Quilmes.
+Catálogo de herramientas digitales gratuitas, de código abierto o de desarrolladorxs independientes, para manipular sonido orientado a la práctica musical. Parte del proyecto de investigación: "Temporalidades discursivas en la música contemporánea argentina del siglo XXI. Una breve cartografía sonora local." que se inscribe en el programa SEAS (Sistemas y Espacialidad en el Arte Sonoro) - Universidad Nacional de Quilmes.
 
 Indice de procesos:
 1. Time Stretching
 2. Síntesis granular
 3. Samplers
-4. Filtros resonantes
-5. Filtros espectrales
-6. Sistemas de reverberación
+4. Filtros espectrales
+5. Sistemas de reverberación
 
 Utilidades / Software:
 
@@ -20,7 +19,7 @@ Referencias:
 
 https://docs.google.com/document/d/1PBexUJwzENjWy_U-plBNLjZxWV5qrVLLd1fm2fa_5Yk/edit?usp=share_link
 
-/
+
 
 1. Time Stretching: Time stretching proceso de manipulación digital del audio que permite modificar su duración o velocidad sin alterar su altura. Se utiliza para expandir o comprimir el tiempo sonoro, y puede aplicarse en contextos de procesamiento en tiempo real o diferido. 
 
@@ -43,15 +42,12 @@ nuPG — The New Pulsar Generator, para Supercollider ; https://www.marcinpietru
 3. Samplers (Samplers): Son dispositivos o programas diseñados para grabar y reproducir fragmentos de sonido real ("muestras" o samples). Actúan como precursores de la síntesis moderna y se utilizan en contextos de síntesis granular para segmentar y reorganizar sonidos grabados, permitiendo variaciones extraordinarias de la fuente original.
 
 
-4. Filtros Resonantes (Resonance Filters): Son filtros, generalmente de paso de banda, que se utilizan para enfatizar formantes o regiones específicas de energía en el espectro. Históricamente, se han empleado para dar a pulsaciones eléctricas una "resonancia aguda" que genera tonos musicales o para simular la resonancia física de instrumentos, como la caja de una maraca.
+4. Filtros Espectrales (Spectral Filters): Procesos que operan directamente en el dominio de la frecuencia, re-escalando las amplitudes de bins (bandas) o pistas espectrales individuales. Pueden controlarse mediante interfaces gráficas que permiten "pintar" o borrar regiones específicas de un sonograma para esculpir el sonido de manera precisa antes de su resíntesis.
 
-
-5. Filtros Espectrales (Spectral Filters): Procesos que operan directamente en el dominio de la frecuencia, re-escalando las amplitudes de bins (bandas) o pistas espectrales individuales. Pueden controlarse mediante interfaces gráficas que permiten "pintar" o borrar regiones específicas de un sonograma para esculpir el sonido de manera precisa antes de su resíntesis.
-
-6. Sistemas de reverberación: Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de una "halo" de ecos densos y cercanos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución, donde el sonido se "cruza" con la firma acústica de una sala real
+5. Sistemas de reverberación: Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de una "halo" de ecos densos y cercanos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución, donde el sonido se "cruza" con la firma acústica de una sala real
 
 Utilidades:
-1. pure data / pd: Entorno de programación mediante objetos aplicable a imagen y sonido.
+1. pure data / pd: Entorno de programación mediante objetos aplicable a sonido e imagen.
 https://puredata.info
 
 2. plugdata: Herramienta de programación mediante objetos basada en pd. Su función como plugin VST permite utilizar patchs de pd en cualquier DAW.
