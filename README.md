@@ -19,7 +19,7 @@ Referencias:
 
 https://docs.google.com/document/d/1PBexUJwzENjWy_U-plBNLjZxWV5qrVLLd1fm2fa_5Yk/edit?usp=share_link
 
-
+-----
 
 1. Time Stretching: Time stretching proceso de manipulación digital del audio que permite modificar su duración o velocidad sin alterar su altura. Se utiliza para expandir o comprimir el tiempo sonoro, y puede aplicarse en contextos de procesamiento en tiempo real o diferido. 
 
@@ -27,7 +27,7 @@ Existen diferentes maneras de implementar este proceso en la manipulación digit
 
 PaulXStretch - basado en Paul's Extreme Sound Stretch, disponible en VST y como software standalone ; https://sonosaurus.com/paulxstretch/ 
 
-
+-----
 
 2. Síntesis Granular: La síntesis granular es una técnica que construye objetos sonoros complejos mediante la combinación de miles de granos de sonido, definidos como eventos microacústicos breves de entre 1 y 100 ms. Curtis Roads la describe como un sistema que permite manipular el sonido como un medio fluido, integrando dimensiones temporales y espectrales en una sola unidad. Dada la altísima densidad de datos que requiere, el proceso se organiza habitualmente a través de nubes o masas controladas globalmente por algoritmos, permitiendo al compositor crear texturas que van desde pulsaciones rítmicas hasta masas de ruido continuo o timbres vocales
 
@@ -38,13 +38,19 @@ ys.granular - patchs de pure data / pd vanilla ; https://github.com/yannseznec/y
 
 nuPG — The New Pulsar Generator, para Supercollider ; https://www.marcinpietruszewski.com/research-nupg
 
+-----
 
 3. Samplers (Samplers): Son dispositivos o programas diseñados para grabar y reproducir fragmentos de sonido real ("muestras" o samples). Actúan como precursores de la síntesis moderna y se utilizan en contextos de síntesis granular para segmentar y reorganizar sonidos grabados, permitiendo variaciones extraordinarias de la fuente original.
 
+-----
 
 4. Filtros Espectrales (Spectral Filters): Procesos que operan directamente en el dominio de la frecuencia, re-escalando las amplitudes de bins (bandas) o pistas espectrales individuales. Pueden controlarse mediante interfaces gráficas que permiten "pintar" o borrar regiones específicas de un sonograma para esculpir el sonido de manera precisa antes de su resíntesis.
 
+-----
+
 5. Sistemas de reverberación: Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de una "halo" de ecos densos y cercanos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución, donde el sonido se "cruza" con la firma acústica de una sala real
+
+-----
 
 Utilidades:
 1. pure data / pd: Entorno de programación mediante objetos aplicable a sonido e imagen.
