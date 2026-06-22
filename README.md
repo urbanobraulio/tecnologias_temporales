@@ -9,6 +9,10 @@ Indice de procesos:
 5. Filtros espectrales
 6. Sistemas de reverberación
 
+Utilidades:
+1. plugdata. Herramienta de programación mediante objetos basada en pd. Su función como plugin VST permite utilizar patchs de pd en cualquier DAW.
+https://plugdata.org
+
 /
 
 1. Time Stretching: Time stretching proceso de manipulación digital del audio que permite modificar su duración o velocidad sin alterar su altura. Se utiliza para expandir o comprimir el tiempo sonoro, y puede aplicarse en contextos de procesamiento en tiempo real o diferido. 
