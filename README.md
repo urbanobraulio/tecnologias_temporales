@@ -10,8 +10,7 @@ Indice de procesos:
 6. Sistemas de reverberación
 
 Utilidades:
-1. plugdata. Herramienta de programación mediante objetos basada en pd. Su función como plugin VST permite utilizar patchs de pd en cualquier DAW.
-https://plugdata.org
+1. plugdata
 
 /
 
@@ -40,6 +39,10 @@ nuPG — The New Pulsar Generator, para Supercollider ; https://www.marcinpietru
 
 
 5. Filtros Espectrales (Spectral Filters): Procesos que operan directamente en el dominio de la frecuencia, re-escalando las amplitudes de bins (bandas) o pistas espectrales individuales. Pueden controlarse mediante interfaces gráficas que permiten "pintar" o borrar regiones específicas de un sonograma para esculpir el sonido de manera precisa antes de su resíntesis.
+
+Utilidades:
+1. plugdata: Herramienta de programación mediante objetos basada en pd. Su función como plugin VST permite utilizar patchs de pd en cualquier DAW.
+https://plugdata.org
 
 6. Sistemas de reverberación: Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de una "halo" de ecos densos y cercanos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución, donde el sonido se "cruza" con la firma acústica de una sala real
 
