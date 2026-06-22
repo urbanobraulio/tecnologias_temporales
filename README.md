@@ -12,6 +12,9 @@ Indice de procesos:
 Utilidades:
 1. plugdata
 
+Referencias:
+https://docs.google.com/document/d/1PBexUJwzENjWy_U-plBNLjZxWV5qrVLLd1fm2fa_5Yk/edit?usp=share_link
+
 /
 
 1. Time Stretching: Time stretching proceso de manipulación digital del audio que permite modificar su duración o velocidad sin alterar su altura. Se utiliza para expandir o comprimir el tiempo sonoro, y puede aplicarse en contextos de procesamiento en tiempo real o diferido. 
