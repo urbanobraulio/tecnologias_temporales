@@ -50,7 +50,7 @@ nuPG — The New Pulsar Generator, para Supercollider ; https://www.marcinpietru
 
 5. Sistemas de reverberación: Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de retardos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución.
 
-rev2~.pd / abstracción de pd, reverberador simple con una entrada y cuatro salídas. Parte de spectro~
+rev2~.pd - Abstracción de pd, reverberador simple con una entrada y cuatro salídas. Parte de spectro~
 https://github.com/ben-wes/pd-spectro_tilde
 
 -----
