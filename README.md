@@ -48,19 +48,23 @@ nuPG — The New Pulsar Generator, para Supercollider ; https://www.marcinpietru
 
 -----
 
-5. Sistemas de reverberación: Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de una "halo" de ecos densos y cercanos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución, donde el sonido se "cruza" con la firma acústica de una sala real
+5. Sistemas de reverberación: Son herramientas que simulan la respuesta acústica de un espacio mediante la adición de retardos. Técnicamente se consideran filtros con una respuesta de impulso (IR) larga; se pueden implementar mediante métodos clásicos (como placas de metal) o técnicas avanzadas de convolución.
+
+rev2~.pd / abstracción de pd, reverberador simple con una entrada y cuatro salídas. Parte de spectro~
+https://github.com/ben-wes/pd-spectro_tilde
 
 -----
 
 Utilidades:
 1. pure data / pd: Entorno de programación mediante objetos aplicable a sonido e imagen.
 https://puredata.info
+Guías: https://pablocetta.com/pdfs/publicaciones/captura.pdf
 
-2. plugdata: Herramienta de programación mediante objetos basada en pd. Su función como plugin VST permite utilizar patchs de pd en cualquier DAW.
+3. plugdata: Herramienta de programación mediante objetos basada en pd. Su función como plugin VST permite utilizar patchs de pd en cualquier DAW.
 https://plugdata.org
 
 
-3. Supercolldier: Plataforma para realizar síntesis de audio y composición algoritmica.
+4. Supercolldier: Plataforma para realizar síntesis de audio y composición algoritmica.
 https://supercollider.github.io
 
 
