@@ -29,7 +29,7 @@ PaulXStretch - basado en Paul's Extreme Sound Stretch, disponible en VST y como 
 
 -----
 
-2. Síntesis Granular: La síntesis granular es una técnica que construye objetos sonoros complejos mediante la combinación de miles de granos de sonido, definidos como eventos microacústicos breves de entre 1 y 100 ms. Curtis Roads la describe como un sistema que permite manipular el sonido como un medio fluido, integrando dimensiones temporales y espectrales en una sola unidad. Dada la altísima densidad de datos que requiere, el proceso se organiza habitualmente a través de nubes o masas controladas globalmente por algoritmos, permitiendo al compositor crear texturas que van desde pulsaciones rítmicas hasta masas de ruido continuo o timbres vocales
+2. Síntesis Granular: La síntesis granular es una técnica que construye objetos sonoros complejos mediante la combinación de múltiples partículas de sonido, definidas como eventos microacústicos breves de entre 1 y 100 ms. Curtis Roads la describe como un sistema que permite manipular el sonido como un medio fluido, integrando dimensiones temporales y espectrales en una sola unidad. Dada la altísima densidad de datos que requiere, el proceso se organiza habitualmente a través de nubes o masas controladas globalmente por algoritmos, permitiendo crear texturas que van desde pulsaciones rítmicas hasta masas de ruido continuo o timbres vocales.
 
 
 EmissionControl 2 - Software standalone ; https://www.curtisroads.net/software
@@ -40,11 +40,11 @@ nuPG — The New Pulsar Generator, para Supercollider ; https://www.marcinpietru
 
 -----
 
-3. Samplers (Samplers): Son dispositivos o programas diseñados para grabar y reproducir fragmentos de sonido real ("muestras" o samples). Actúan como precursores de la síntesis moderna y se utilizan en contextos de síntesis granular para segmentar y reorganizar sonidos grabados, permitiendo variaciones extraordinarias de la fuente original.
+3. Samplers (Samplers): Son dispositivos o programas diseñados para grabar y/o reproducir fragmentos de sonido. Se utilizan de diversos modos, tanto en la construcción de estructuras sonoras basadas en la superposición de elementos y como contextos de síntesis granular, para segmentar y reorganizar sonidos grabados, permitiendo variaciones extraordinarias de la fuente original.
 
 -----
 
-4. Filtros Espectrales (Spectral Filters): Procesos que operan directamente en el dominio de la frecuencia, re-escalando las amplitudes de bins (bandas) o pistas espectrales individuales. Pueden controlarse mediante interfaces gráficas que permiten "pintar" o borrar regiones específicas de un sonograma para esculpir el sonido de manera precisa antes de su resíntesis.
+4. Filtros Espectrales (Spectral Filters): Procesos que operan directamente en el dominio de la frecuencia, re-escalando las amplitudes de bandas (bins) o pistas espectrales individuales. Pueden controlarse mediante interfaces gráficas que permiten "pintar" o borrar regiones específicas de un sonograma para esculpir el sonido de manera precisa antes de su resíntesis.
 
 -----
 
